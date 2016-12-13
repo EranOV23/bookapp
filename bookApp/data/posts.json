@@ -1,0 +1,34 @@
+[
+  { 
+    "id": 0,
+    "autuor": "Yann Martel",
+    "date":0,
+    "title":"@@THIS is a @BooK!!",
+    "img": "img/book0.jpg",
+    "editable": false
+  },
+  { 
+    "id": 1,
+    "autuor": "Orson Scott Card",
+    "date": 0,
+    "title":"ender's game",
+    "img": "img/book1.jpg",
+    "editable": false
+  },
+  { 
+    "id": 2,
+    "autuor": "Etgar Keret",
+    "date": 0,
+    "title":"Missing Kissinger",
+    "img": "img/book2.jpg",
+    "editable": false
+  },
+  { 
+    "id": 3,
+    "autuor": "Prof Steve Peters",
+    "date": 0,
+    "title":"The Chimp Peradox",
+    "img": "img/book3.jpg",
+    "editable": false
+  }
+]

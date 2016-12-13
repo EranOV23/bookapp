@@ -1,0 +1,18 @@
+<div class="book" ng-repeat="post in posts">
+  
+  <h4 ng-hide="post.editable">{{post.title | myFilter}}</h4>
+  <input ng-show="post.editable" name="title" type="text" class="form-control" ng-model="post.title" required>
+  
+  <img ng-src="{{post.img}}">
+  
+  <h6 ng-hide="post.editable">{{post.autuor}}</h6>
+  <input ng-show="post.editable" name="Autuor" type="text" class="form-control" ng-model="post.autuor" required>
+  
+  <h6 ng-hide="post.editable">{{post.date | date : format : timezone}}</h6>
+  <input ng-show="post.editable" name="date" type="date" class="form-control"  ng-model="post.date" required>
+  
+  <button ng-hide="post.editable" ng-click="edit($index)" class="btn btn-primary">Edit</button>
+  <button ng-show="post.editable" ng-click="save($index)" class="btn btn-primary">save</button>
+  <button class="btn btn-primary" ng-click="delete($index)">Delete</button>
+
+</div>

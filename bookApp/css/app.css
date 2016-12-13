@@ -1,0 +1,37 @@
+.header{
+	text-align: center;
+	background-color: #5f5f5f;
+	padding: 1%;
+	color: white;
+}
+
+.list{
+	display: flex;
+	justify-content: center;
+}
+
+.book{
+	margin: 5%;
+}
+
+.modal{
+	text-align: center;
+	margin: 5%;
+	background-color: white;
+}
+
+.edit{
+	background-color: red;
+	text-align: center;
+}
+
+.btn{
+	margin-top: 3px;
+}
+
+@media (max-width:480px){
+	.list{
+		display: block;
+		margin-left: 15%;
+	}
+}
